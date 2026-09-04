@@ -6,8 +6,8 @@ import org.junit.jupiter.api.Test;
 
 class JavaToolchainTest {
 
-    @Test
-    void runsTestsOnRequiredJavaVersion() {
-        assertEquals(25, Runtime.version().feature());
-    }
+  @Test
+  void runsTestsOnRequiredJavaVersion() {
+    assertEquals(25, Runtime.version().feature());
+  }
 }
