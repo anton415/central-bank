@@ -1,2 +1,11 @@
 # Maven build output
 target/
+
+/application.ini
+
+# Generated Vaadin frontend and local browser verification artifacts
+/application/src/main/frontend/generated/
+/application/node_modules/
+/application/src/main/frontend/index.html
+/output/playwright/
+/.playwright-cli/
